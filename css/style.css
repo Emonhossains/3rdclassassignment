@@ -1,0 +1,214 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: auto;
+	text-align: center;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 500px;
+	height: 300px;
+	margin: 70px auto;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 130px;
+	height: 130px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 90px;
+	left: 180px;
+}
+.fb-share{
+	width: 140px;
+	position: fixed;
+	top: 30%;
+	right: -115px;
+	transition: 1s;
+}
+.fb-share:hover{
+	right: -5px;
+}
+.twitter-share{
+	width: 90px;
+	position: fixed;
+	top: 33%;
+	right: -65px;
+	transition: 1s;
+}
+.twitter-share:hover{
+	right: -5px;
+}
+.instagram-share{
+	width: 100px;
+	position: fixed;
+	top: 40%;
+	right: -75px;
+	transition: 1s;
+}
+.instagram-share:hover{
+	right: -5px;
+}
+.linkedin-share{
+	width: 95px;
+	position: fixed;
+	top: 50%;
+	right: -70px;
+	transition: 1s;
+}
+.linkedin-share:hover{
+	right: -5px;
+}
+.whatsap-share{
+	width: 100px;
+	position: fixed;
+	top: 56%;
+	right: -74px;
+	transition: 1s;
+}
+.whatsap-share:hover{
+	right: -5px;
+}
+.youtube-share{
+	width: 100px;
+	position: fixed;
+	top: 60%;
+	right: -65px;
+	transition: 1s;
+}
+.youtube-share:hover{
+	right: -5px;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 70px 0px 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+    display: block;
+    margin: 0px 10px;
+    transition: 1s;
+}
+.social-icons li a .fa-facebook{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100px;
+	background: #1558AD;
+	font-size: 15px;
+	color: #fff;
+	border: 1px solid #1558AD;
+	transition: 1s;
+}
+.social-icons li a .fa-facebook:hover{
+	background: transparent;
+	color: #1558AD;
+	border-radius: 1px solid #1558AD;
+}
+.social-icons li a .fa-instagram{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100px;
+	font-size: 15px;
+	color: #fff;
+	background: #da2e68;
+	transition: 1s;
+	border: 1px solid #da2e68;
+}
+.social-icons li a .fa-instagram:hover{
+	background: transparent;
+	color: #da2e68;
+	border-radius: 1px solid #da2e68;
+}
+.social-icons li a .fa-twitter{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100px;
+	font-size: 15px;
+	color: #fff;
+	background: #0097e6;
+	transition: 1s;
+	border: 1px solid #0097e6;
+}
+.social-icons li a .fa-twitter:hover{
+	background: transparent;
+	color: #0097e6;
+	border-radius: 1px solid #0097e6;
+}
+.social-icons li a .fa-linkedin{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100px;
+	font-size: 15px;
+	color: #fff;
+	background: #0097e6;
+	transition: 1s;
+	border: 1px solid #0097e6;
+}
+.social-icons li a .fa-linkedin:hover{
+	background: transparent;
+	color: #0097e6;
+	border-radius: 1px solid #0097e6;
+}
+.social-icons li a .fa-whatsapp{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100px;
+	font-size: 15px;
+	color: #fff;
+	background: #47e964;
+	transition: 1s;
+	border: 1px solid #47e964;
+}
+.social-icons li a .fa-whatsapp:hover{
+	background: transparent;
+	color: #47e964;
+	border-radius: 1px solid #47e964;
+}
+.social-icons li a .fa-youtube{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100px;
+	font-size: 15px;
+	color: #fff;
+	background: #f70000;
+	transition: 1s;
+	border: 1px solid #f70000;
+}
+.social-icons li a .fa-youtube:hover{
+	background: transparent;
+	color: #f70000;
+	border-radius: 1px solid #f70000;
+}
